@@ -13,10 +13,10 @@ html {
 }
 
 body {
-    background-image: url(../images/pexels-jéshoots-234527.jpg); 
+    background-image: url(images/pexels-jéshoots-234527.jpg);
     background-repeat: no-repeat;
-    background-size: 460%;
-    background-position: -580px 100px;
+    background-size: 760%;
+    background-position: -300px 40px;
     
 }
 
@@ -25,7 +25,6 @@ header {
     position: fixed;
     z-index: 12;
     width: 100%;
-    
 
 }
 
@@ -69,43 +68,12 @@ ul li a {
     text-transform: uppercase;
 }
 
-#about {
+.home {
     color:#865DFF;
 }
 
-/* Section */
-
-.title-container {
-    width: 100%;
-    height: 300px;
-    background-image: url(../images/Aboutme-bg.jpg);
-    background-position-y: 750px;
-    background-position-x: -300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    
-}
-
-.title {
-    color: #CBE4DE;
-}
-
-.art-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    color:#CBE4DE;
-    font-size: 20px;
-    position: relative;
-    top: 60px;
-    
-}
-
-.paragraph {
-    font-family: 'Montserrat', sans-serif;
+/* main */
+.skills {
+    color:#865DFF;
     
 }
