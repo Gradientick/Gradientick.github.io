@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@500&family=Oswald&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(images/pexels-jéshoots-234527.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: -300px 100px;
+    
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+
+}
+
+nav {
+    background: rgb(36, 37, 42);
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label.logo {
+    color:rgb(203, 228, 222, 0.95);
+    font-size:40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.menu-container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2E4F4F;
+    align-items: center;
+    
+}
+
+.menu-container li {
+    display: inline-block;
+}
+
+ul li a {
+    margin: 0 28px;
+    color: #CBE4DE;
+    text-transform: uppercase;
+}
+/* end of header */
+
+/* Hero */
+picture {
+    display: flex;
+    justify-content: center;
+    clip-path: circle();
+    background-color: rgb(14, 131, 136, 0.3);
+    scale: 60%;
+    position: relative;
+    top: 100px;
+}
+
+.text {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    padding: 10px 0px;
+}
+
+p {
+    font-size: 20px;
+    color: #CBE4DE;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+/* Footer */
+.btn-container {
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    top: 120px;
+
+
+}
+
+.btn {
+    color:#ebf3f1;
+    background-color: #0E8388;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 25px;
+    /* outline: 5px solid green; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Tablet Screens */
+@media screen and (min-width: 481px) and (max-width: 960px)
+
+
+
+
