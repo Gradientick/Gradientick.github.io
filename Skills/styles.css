@@ -13,10 +13,10 @@ html {
 }
 
 body {
-    background-image: url(images/pexels-jéshoots-234527.jpg);
+    background-image: url(../images/pexels-joão-jesus-925743.jpg);
     background-repeat: no-repeat;
-    background-size: 760%;
-    background-position: -300px 40px;
+    background-size: 170%;
+    background-position: 0px 110px;
     
 }
 
@@ -75,5 +75,15 @@ ul li a {
 /* main */
 .skills {
     color:#865DFF;
-    
+
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 50px;
 }

@@ -23,7 +23,7 @@ body {
 header {
     font-family: 'Montserrat', sans-serif;
     position: fixed;
-    z-index: 12;
+    z-index: 13;
     width: 100%;
     
 
@@ -108,4 +108,48 @@ ul li a {
 .paragraph {
     font-family: 'Montserrat', sans-serif;
     
+}
+
+/* content */
+.section-container {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+
+    grid-template-columns: 1;
+}
+.section-one {
+    
+
+}
+
+
+/* Tablet Screens */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .section-container {
+        scale: 140%;
+    }
+
+    .art-container {
+        top: 20px;
+    }
+}
+
+/* computers */
+@media screen and (min-width: 1280px) {
+    .section-container {
+        scale: 170%;
+        right: 300px;
+        top: -20px;
+    }
+
+    .art-container {
+        text-align: left;
+        top: 125px;
+        scale: 120%;
+        width: 350px;
+        left: 800px;
+        background-color: rgba(5, 9, 8, 0.249);
+    }
 }

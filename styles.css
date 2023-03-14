@@ -32,7 +32,6 @@ nav {
     background: rgb(36, 37, 42);
     height: 80px;
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +45,11 @@ label.logo {
     font-weight: bolder;
     padding: 0 0x;
     transition: all 0.3s ease 0s;
+}
+
+label.logo:hover {
+    font-size: 50px;
+    color:#865DFF;
 }
 
 .menu-container {
@@ -66,6 +70,11 @@ ul li a {
     margin: 0 10px;
     color: #CBE4DE;
     text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color:#865DFF
 }
 
 .home {
@@ -82,6 +91,13 @@ picture {
     scale: 60%;
     position: relative;
     top: 150px;
+    transition: all 0.3s ease 0s;
+}
+
+picture:hover {
+    background-color: #865DFF;
+    scale: 80%;
+
 }
 
 .text {
@@ -96,15 +112,22 @@ picture {
     padding: 10px 0px;
 }
 
+
+
 p {
     font-size: 20px;
     color: #CBE4DE;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    transition: all 0.5s ease 0s;
 
 }
 
-/* Footer */
+p:hover {
+    color: #865DFF;
+}
+
+
 .btn-container {
     display: flex;
     
@@ -123,6 +146,26 @@ p {
     font-size: 25px;
     /* outline: 5px solid green; */
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    padding: 10px;
+    font-size: 30;
+    background-color: #865DFF;
+}
+
+.video-container {
+    display: flex;
+    
+    position: relative;
+    height: fit-content;
+    top: 220px;
+    padding: 40px;
+}
+.intro {
+    width: 100%;
+    height: auto;
 }
 
 /* Tablet Screens */
