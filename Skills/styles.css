@@ -10,20 +10,20 @@ html {
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: sans-serif;
 }
 
 body {
-    background-image: url(../images/pexels-joão-jesus-925743.jpg);
+    background-image: url(../images/liquid-cheese.svg);
     background-repeat: no-repeat;
-    background-size: 170%;
-    background-position: 0px 110px;
+    background-size: 660%;
+    background-position-y: 100px;
     
 }
 
 header {
     font-family: 'Montserrat', sans-serif;
-    position: fixed;
-    z-index: 12;
+    
     width: 100%;
 
 }
@@ -75,6 +75,8 @@ ul li a {
 /* main */
 .skills {
     color:#865DFF;
+    
+
 
 }
 
@@ -83,7 +85,13 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     top: 50px;
+
+    background-color: red;
+}
+
+h2 {
+    color: #CBE4DE;
+    font-size: 4em;
 }
