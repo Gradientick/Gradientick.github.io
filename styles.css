@@ -170,12 +170,17 @@ article div p:hover {
 
 
 .form {
-    
-    width: 100%;
+   
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    top: 8em;
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: fit-content;
+    
+   
+    
 }
 
 form {
@@ -184,14 +189,16 @@ form {
     flex-direction: column;
     justify-content: center;
     padding: 10px 4vw;
-    width: 90%;
+    width: 100%;
     background-color: #0E8388;
     max-width: 600px;
     border-radius: 10px;
-    
     position: relative;
-    top: 30px;
+    top: 15px;
+    margin: 0 2em;
+    scale: 80%;
 }
+
 
  footer {
     position: fixed;
@@ -220,6 +227,11 @@ form {
 
          article div p {
             font-size: 22px;
+         }
+
+         .form {
+            justify-content: flex-end;
+            padding-bottom: 4em;
          }
 }
 

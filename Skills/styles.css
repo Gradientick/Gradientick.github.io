@@ -25,7 +25,8 @@ header {
     font-family: 'Montserrat', sans-serif;
     
     width: 100%;
-
+    position: fixed;
+    z-index: 12;
 }
 
 nav {
@@ -83,10 +84,11 @@ ul li a {
 .title-container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 8em;
+    margin-left: 1em;
 
     background-color: red;
 }
@@ -95,3 +97,47 @@ h2 {
     color: #CBE4DE;
     font-size: 4em;
 }
+
+footer {
+    width: 100vw;
+    background-color: green;
+
+    position: fixed;
+    bottom: 34px;
+    z-index: 12;
+
+    display: flex;
+    justify-content: center;
+ }
+
+ footer .social-icons ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    scale: 170%;
+    
+    
+ }
+
+ section {
+    width: 100vw;
+    height: 70vh;
+    background-color: #865DFF;
+    position: relative;
+    top: 9em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+ section .item {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+ }
+
+ @media 
