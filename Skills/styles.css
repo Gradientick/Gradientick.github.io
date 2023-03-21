@@ -67,6 +67,11 @@ ul li a {
     margin: 0 10px;
     color: #CBE4DE;
     text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: #865DFF;
 }
 
 .home {
@@ -84,60 +89,114 @@ ul li a {
 .title-container {
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     position: relative;
-    top: 8em;
-    margin-left: 1em;
-
-    background-color: red;
+    top: 10em;
+    
+    
 }
 
 h2 {
     color: #CBE4DE;
-    font-size: 4em;
+    font-size: 7em;
 }
 
 footer {
     width: 100vw;
-    background-color: green;
+    height: auto;
+    
 
     position: fixed;
-    bottom: 34px;
+    bottom: 2em;
     z-index: 12;
 
     display: flex;
     justify-content: center;
  }
 
- footer .social-icons ul li {
+footer .social-icons ul li{
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    scale: 170%;
+
     
+    scale: 200%;
+    padding: 0 2em;
+    transition: all 0.3s ease 0s;
     
+
+    
+ }
+
+ footer .social-icons ul li:hover {
+    color: #865DFF;
  }
 
  section {
     width: 100vw;
     height: 70vh;
-    background-color: #865DFF;
+   
     position: relative;
     top: 9em;
 
     display: flex;
-    flex-direction: column;
-    gap: 1em;
+    flex-direction: row;
+    gap: 5em;
     justify-content: center;
     align-items: center;
 
  }
  
  section .item {
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
+    
+    width: 23em;
+    height: 23em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+ section .item .fa-brands {
+    scale: 1100%;
+    color: #cbe4de;
+ }
+
+ .another-container {
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-direction: column;
+}
+
+.featured {
+    font-size: 5em;
+    text-align: center;
+}
+
+.title {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowmaker {
+    background-color: red;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+.subitem1,
+.subitem2,
+.subitem3 {
+    width: 15em;
+    height: 15em;
+    background-color: blue;
+}
 
  @media 
