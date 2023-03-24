@@ -10,14 +10,16 @@ html {
     padding: 0;
     text-decoration: none;
     list-style: none;
+
+    
 }
 
 body {
-    background-image: url(../images/pexels-jéshoots-234527.jpg); 
+    background-image: url(images/liquid-cheese.svg);
     background-repeat: no-repeat;
-    background-size: 460%;
-    background-position: -580px 100px;
-    
+    background-size: 660%;
+    background-position-y: 100px;
+    background-color: #0E8388;
 }
 
 header {
@@ -121,6 +123,9 @@ ul li a:hover {
     top: 60px;
     transition: all 0.3s ease 0s;
     
+    
+    
+    
 }
 
 .paragraph {
@@ -142,10 +147,33 @@ ul li a:hover {
 
     grid-template-columns: 1;
 }
-.section-one {
-    
 
+.social-icons {
+    
+    position: fixed;
+    z-index: 12;
+    scale: 170%;
+    margin-left: 1em;
+    bottom: 5em;
+    
 }
+
+
+.social-icons ul li{
+    padding: 0.5em;
+    
+}
+
+footer .social-icons ul li a{
+    color: red;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 /* Tablet Screens */
@@ -165,6 +193,7 @@ ul li a:hover {
         scale: 170%;
         right: 300px;
         top: -20px;
+        padding-bottom: 7em;
     }
 
     .art-container {
@@ -174,5 +203,9 @@ ul li a:hover {
         width: 350px;
         left: 800px;
         background-color: rgba(5, 9, 8, 0.249);
+        padding: 1em;
+        border-radius: 10px;
+        height: auto;
+        margin-left: 10em;
     }
 }
