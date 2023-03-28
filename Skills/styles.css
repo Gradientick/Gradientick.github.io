@@ -62,6 +62,7 @@ label.logo:hover {
     background-color: #2E4F4F;
     align-items: center;
     
+    
 }
 
 .menu-container li {
@@ -92,27 +93,97 @@ ul li a:hover {
 }
 
 .title-container {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 10em;
+    top: 8em;
 }
 
 .title-container h2{
-    color: #865DFF;
+    color: #865DFF#CBE4DE;
     transition: all 0.3s ease 0s;
 }
 .title-container h2:hover {
-    color: #CBE4DE;;
+    color: #865DFF;
 }
 
 h2 {
     color: #CBE4DE;
-    font-size: 7em;
+    font-size: 4em;
 }
 
+section {
+    
+    position: relative;
+    top: 12em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.item {
+    scale: 400%;
+    border-bottom: 2px solid #865DFF;
+    padding-bottom: 2px;
+    
+    
+}
+
+.javascript {
+    color: yellow;
+}
+
+.html {
+    color: orangered;
+}
+
+.css {
+    color: blue;
+}
+/* end of main */
+
+/* featured */
+.featured {
+    position: relative;
+    top: 15em;
+    
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #CBE4DE;
+}
+/* End of featured */
+
+/* projects */
+
+.projects {
+ 
+    position: relative;
+    top: 20em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item {
+    width: 15em;
+    height: 10em;
+    background-color: #CBE4DE;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
 footer {
     width: 100vw;
     height: auto;
@@ -128,6 +199,7 @@ footer {
 
 footer .social-icons ul li{
     display: inline-flex;
+    
 
     
     scale: 200%;
@@ -142,89 +214,5 @@ footer .social-icons ul li{
     color: #865DFF;
  }
 
- section {
-    width: 100vw;
-    height: 70vh;
-   
-    position: relative;
-    top: 9em;
-
-    display: flex;
-    flex-direction: row;
-    gap: 5em;
-    justify-content: center;
-    align-items: center;
-
- }
  
- section .item {
-    
-    width: 23em;
-    height: 23em;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- section .item .fa-brands {
-    scale: 1100%;
-    color: #cbe4de;
- }
-
- .another-container {
-   
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    flex-direction: column;
-}
-
-.featured {
-    font-size: 5em;
-    text-align: center;
-    color: #CBE4DE;
-    transition: all 0.3s ease 0s;
-}
-
-.featured:hover {
-    color: #865DFF;
-}
-
-.title {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rowmaker {
-    
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5em;
-}
-.subitem {
-    width: 40em;
-    height: 20em;
-    background-color: whitesmoke;
-    margin-bottom: 4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.subitem h3{
-    font-size: 3em;
-}
-picture {
-    width: 5em;
-    height: 5em;
-    
-}
- @media 

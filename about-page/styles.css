@@ -148,26 +148,10 @@ ul li a:hover {
     grid-template-columns: 1;
 }
 
-.social-icons {
-    
-    position: fixed;
-    z-index: 12;
-    scale: 170%;
-    margin-left: 1em;
-    bottom: 5em;
-    
-}
 
 
-.social-icons ul li{
-    padding: 0.5em;
-    
-}
-
-footer .social-icons ul li a{
-    color: red;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
+video {
+    border-radius: 15px;
 }
 
 
