@@ -243,7 +243,7 @@ footer .social-icons ul li{
     .projects {
         flex-direction: row;
         top: 22em;
-        gap: 8em
+        gap: 8em;
     }
 
     .project-item {
@@ -256,6 +256,7 @@ footer .social-icons ul li{
         top: 9em;
       
     }
+
  }
 
  
