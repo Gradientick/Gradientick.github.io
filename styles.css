@@ -205,6 +205,17 @@ form {
     bottom: 15px;
  }
 
+ form h3 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+ }
+
+ form input {
+    background-color: ;
+ }
+
+ 
+
 
 /* Tablet Reso */
 @media only screen and (min-width: 768px) and (max-width: 990px) {
