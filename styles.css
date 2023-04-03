@@ -400,7 +400,9 @@ footer ul li i:hover {
         margin-bottom: 5em;
         text-align: left;
     }
-     
+     .skills-section {
+        margin: 0 3em;
+     }
     picture {
         order: 1;
         scale: 130%;
