@@ -21,6 +21,13 @@ body {
     background-attachment: fixed;
 }
 
+main {
+    background-image: url(../images/liquid-cheese.svg);
+    background-repeat: no-repeat;
+    background-size: 500%;
+    background-attachment: fixed;
+}
+
 header {
     font-family: 'Montserrat', sans-serif;
     position: fixed;
@@ -390,11 +397,13 @@ footer ul li i:hover {
 @media only screen and (min-width: 300px) and (max-width: 767px) {
     body {
         background-size: 700%;
+        
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 990px) {
     main {
         gap: 20em;
+        
     }
     .head-section {
         display: flex;
@@ -483,7 +492,7 @@ footer ul li i:hover {
 
 @media only screen and (min-width:991px) {
 
-    body {
+    main {
         background-size: 100%;
     }
     
