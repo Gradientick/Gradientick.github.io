@@ -193,7 +193,7 @@ article p {
     gap: 5em;
     padding-bottom: 5em;
     background-color: rgba(106, 106, 106, 0.8);
-    margin: 0 4em;
+    margin: 0 3em 4em 03em;
     border-radius: 15px;
     
 }
@@ -387,7 +387,11 @@ footer ul li i:hover {
     position: relative;
     gap: 1em;
 }
-
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    body {
+        background-size: 700%;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 990px) {
     main {
         gap: 20em;
