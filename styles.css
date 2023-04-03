@@ -396,7 +396,7 @@ footer ul li i:hover {
 }
 @media only screen and (min-width: 300px) and (max-width: 767px) {
     main {
-        background-size: 2000%;
+        background-size: 2500%;
         background-attachment: fixed;
         
     }
