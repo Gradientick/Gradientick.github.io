@@ -192,6 +192,10 @@ article p {
     text-align: center;
     gap: 5em;
     padding-bottom: 5em;
+    background-color: rgba(106, 106, 106, 0.8);
+    margin: 0 4em;
+    border-radius: 15px;
+    
 }
 
 .skills-section h1 {
@@ -243,10 +247,10 @@ article p {
 
     display: flex;
     flex-direction: column;
-    gap: 5em;
     justify-content: center;
     align-items: center;
     margin: 0 1em;
+    
     
 }
 
@@ -282,8 +286,7 @@ article p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2em;
+    
 }
 
 .featured-projects ul li {
@@ -301,68 +304,60 @@ article p {
 }
 
 /* form */
-form {
-    font-family: sans-serif;
+.form-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    padding: 10px 1vw;
-    background-color: #0E8388;
-    
-    border-radius: 10px;
-    margin: 0 1em;
+    justify-self: center;
 
-    width: 90vw;
-    height: fit-content;
+    position: relative;
+    bottom: 40em;
+
     
 
 }
-
-
- 
-
- form h3 {
-    margin-bottom: 0.5em;
-    font-size: 2em;
-    color: #CBE4DE;
- }
-
- form input {
-    border: 0;
-    background-color: transparent;
-    border-bottom: 4px solid #865DFF;
-
- }
-
- form textarea {
-    background-color: transparent;
-    border: 0;
-    border-bottom: 4px solid #865DFF;
-    
- }
-
- form button {
-    background-color: #CBE4DE;
-    border-radius: 10px;
-    color: #2E4F4F;
-    transition: all 0.3s ease 0s;
- }
-
-
- form button:hover {
-    background-color: #865DFF;
- }
-
- .form-section {
-    
+form {
     display: flex;
+    flex-direction: column;
+    background-color: #CBE4DE;
+    padding: 2em;
+    border-radius: 15px;
+    gap: 1em;
     justify-content: center;
-    align-items: center;
 
-    position: relative;
-    top: -40em;
- }
+}
+form label {
+    color: #19A7CE;
+}
+form h1 {
+    text-align: center;
+    color: #19A7CE;
+    font-size: 3em;
+}
+
+form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #19A7CE;
+}
+
+form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #19A7CE;
+}
+
+form button {
+    background-color: #19A7CE;
+    font-size: 1em;
+    border-radius: 15px;
+    width: fit-content;
+    text-align: center;
+    padding: 0.8em;
+    transition: all 0.3s ease 0s;
+}
+
+form button:hover {
+    background-color: #865DFF;
+}
 /* footer */
 footer {
     position: fixed;
@@ -444,6 +439,7 @@ footer ul li i:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+       
     }
 
     .featured-projects ul {
@@ -472,6 +468,9 @@ footer ul li i:hover {
         gap: 5em;
     }
 
+    form {
+        width: 80vw;
+    }
 
     
 }
@@ -563,13 +562,14 @@ footer ul li i:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 25em;
+        gap: 24em;
     }
 
     .featured-projects {
         margin: 5px 10em;
         justify-content: center;
         align-items: center;
+        width: 100vw;
     }
 
     .featured-title-container {
@@ -577,15 +577,15 @@ footer ul li i:hover {
     }
 
     .featured-projects ul li picture {
-        width: 200px;
-        height: 200px;
-      
+        width: 150px;
+        height: 150px;
     }
+   
 
     form {
   
         width: 80vw;
-        height: 200px;
+        height: 74vh;
     
     }
 }
